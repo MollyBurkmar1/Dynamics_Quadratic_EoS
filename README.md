@@ -14,7 +14,7 @@ This analysis in the notebook provides:
 + analysis of the range of Einstein fixed points that can be admitted by the system
 + calculations of the values of the first integrals needed for each dynamical case,
 + plots of the sub-manifolds with their potentials,
-+ plots of each dynamical case in the full system in terms of different variables in 2-dimensions (with their potentials) and in 3-dimenions.
++ plots of each dynamical case in the full system in terms of different variables in 2-dimensions (with their potentials) and in 3-dimensions.
 
 We also investigate a similar system, except we enforce an upper bound on the matter and radiation components. This analysis includes:
 
