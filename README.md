@@ -6,7 +6,7 @@ To run this notebook, the user requires a Mathematica license and to have instal
 
 ## Analysis
 
-The analysis in this notebook is used in the following paper: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.107.083533.
+The analysis in this notebook is used in the following paper: https://arxiv.org/abs/2302.03710v2.
 
 In this notebook, a system of differential equations describing standard dark matter and radiation, the Hubble expansion, and dark energy with a non-linear quadratic equation of state (EoS) is analysed. Non-singular bouncing models are the generic closed model when only dark matter with the quadratic EoS considered here is present. The aim of this analysis is to understand the effect dark matter and radiation have on these closed bouncing models. The full system is 4-dimensional, therefore we project the dynamics on to 2-dimensional and 3-dimensional planes by integrating the differential equations for dark matter and radiation with respect to the dark energy.
 
