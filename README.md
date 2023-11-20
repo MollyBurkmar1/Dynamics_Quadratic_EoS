@@ -4,6 +4,10 @@
 
 To run this notebook, the user requires a Mathematica license and to have installed MaTeX (see https://github.com/szhorvat/MaTeX).
 
+To avoid a Git large file error, a Git hook has been added which clears the output when the file is committed. To set the hooks directory to the .githooks folder, the following command needs to be run in your local directory where you've pulled this repository: 
+
+git config --local core.hooksPath .githooks/
+
 ## Analysis
 
 The analysis in this notebook is used in the following paper: https://arxiv.org/abs/2302.03710v2.
