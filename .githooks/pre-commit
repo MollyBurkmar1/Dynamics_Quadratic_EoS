@@ -1,0 +1,23 @@
+#!/usr/bin/env wolframscript
+
+$outputCellPattern = Cell[_, ___, "Output", ___];
+
+deleteOutputCells[nbPath_String]:=Module[{nb}
+, nb = Import[nbPath]
+
+; If[ FreeQ[nb, $outputCellPattern]
+  , Print[" - ", nbPath, " already clean"]; Return["clean", Module] 
+  ]
+
+; nb = DeleteCases[ nb, $outputCellPattern, Infinity ]
+
+; Check[ Export[ nbPath, nb ], Print[nbPath, " locked, aborting "]; Exit[1]]
+
+; Print[" - ", nbPath, " cleaned"]
+; Run["git add " <> nbPath]
+
+]
+
+Print["Notebooks output cleanup..."]
+
+deleteOutputCells /@ FileNames["*.nb"]
